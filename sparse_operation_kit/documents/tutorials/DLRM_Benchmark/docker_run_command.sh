@@ -1,0 +1,1 @@
+sudo nvidia-docker run -it --rm -p 8888:8888 -p 4040:4040 -p 8082:8082 -v /raid/spark-team/criteo/parquet:/sample_data -v ${HOME}/HugeCTR:/HugeCTR nvcr.io/nvidia/merlin/merlin-tensorflow-training:22.04
